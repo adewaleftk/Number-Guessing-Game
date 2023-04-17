@@ -27,6 +27,7 @@ function App() {
     <div className="App">
       <h1>Lexicon's Number Guessing Game</h1>
       <form>
+	  <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
         <input type="number" id="input" className="input" placeholder="Guess a Number"/>
         <button type="submit" onClick={handleClick} >Guess</button>
       </form>
