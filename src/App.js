@@ -18,7 +18,7 @@ function App() {
       setCount(count + 1);
     }
     else {
-      alert(`Correct! You got this on your ${count} try`);
+      alert(`Correct! It took you  ${count} tries to get the correct answer`);
 
     }
   }
