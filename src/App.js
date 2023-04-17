@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
 
 
-  const Number = 45;
+  const Number = Math.floor(Math.random() * 100) + 1;
 
   function handleClick(event) {
     event.preventDefault();
